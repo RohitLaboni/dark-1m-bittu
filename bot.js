@@ -23,12 +23,12 @@
 
 export default async function initializeTelegramBot(manager) {
   // === CONFIG ===
-  const ALLOWED_GROUP_ID = -1003616233972; // allowed group id
-  const GROUP_INVITE_LINK = "https://t.me/+TH6JSRmI9CUzMzhl";
+  const ALLOWED_GROUP_ID = -1003341276334; // allowed group id
+  const GROUP_INVITE_LINK = "https://t.me/+XuPkOYtowYRjMmE1";
 
   // Token MUST come from env
   const BOT_TOKEN_TELEGRAM =
-    process.env.BOT_TOKEN_TELEGRAM || process.env.BOT_TOKEN || "8401527011:AAFjk18GB95PjlDFdKFMGX4GSp2fbG8ved0";
+    process.env.BOT_TOKEN_TELEGRAM || process.env.BOT_TOKEN || "8514655196:AAG21XJHIMXq5jt2_p5RZbCbkIs4_MXqO4Q";
 
   if (!BOT_TOKEN_TELEGRAM) {
     console.warn("❌ Telegram BOT_TOKEN not set. Skipping initialization.");
